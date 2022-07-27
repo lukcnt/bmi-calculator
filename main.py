@@ -8,3 +8,6 @@ weight_converted = float(weight)
 
 #Calculated BMI.
 bmi = weight_converted / (height_converted * height_converted)
+
+#BMI output.
+print(int(bmi))
