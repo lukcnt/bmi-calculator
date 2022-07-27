@@ -5,3 +5,6 @@ weight = input("Enter your weight in kg: ")
 #Convert string to float.
 height_converted = float(height)
 weight_converted = float(weight)
+
+#Calculated BMI.
+bmi = weight_converted / (height_converted * height_converted)
